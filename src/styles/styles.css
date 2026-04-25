@@ -208,7 +208,7 @@ main {
 
 .service-details div span {
     font-size: var(--font-size-h4); /* Tamanho da Fonte */
-    font-weight: var(--font-size-h4); /* Espessura da Fonte */
+    font-weight: var(--font-weight-h4); /* Espessura da Fonte */
     font-family: var(--font-family-primary); /* Família da Fonte */
 }
 
