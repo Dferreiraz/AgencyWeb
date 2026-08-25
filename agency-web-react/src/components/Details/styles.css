@@ -1,0 +1,111 @@
+.section-details {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.details-presentation {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+
+.details-presentation h2 {
+    font-size: var(--font-size-h2);
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-weight-h2);
+}
+
+.details-presentation p {
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body);
+    color: var(--color-gray-2);
+    width: 665px;
+    margin: 0 auto;
+}
+
+.service-description {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.service-description-reverse {
+    flex-direction: row-reverse;
+}
+
+.content-service {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.content-service h3{
+    font-size: var(--font-size-h3);
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-weight-h3);
+    width: 420px;
+}
+
+.content-service h3 span{
+    color: var(--color-blue);
+}
+
+.content-service p{
+    color: var(--color-gray);
+    font-family: var(--font-family-primary);
+    line-height: 27px;
+    width: 445px;
+}
+
+.service-details {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.service-details div span {
+    font-size: var(--font-size-h4);
+    font-weight: var(--font-weight-h4);
+    font-family: var(--font-family-primary);
+}
+
+.service-details div p {
+    font-size: var(--font-size-caption);
+    font-family: var(--font-family-primary);
+    color: var(--color-gray-2);
+}
+
+@media (max-width: 884px){
+    .details-presentation h2{
+        width: 458px;
+        margin: 0 auto;
+    }
+
+    .details-presentation p{
+        width: 450px;
+        margin: 0 auto;
+    }
+
+    .service-description{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px){
+    .details-presentation h2{
+        width: 360px;
+        font-size: var(--font-size-h3);
+    }
+
+    .details-presentation p{
+        width: 360px;
+    }
+
+    .service-details{
+        width: 300px;
+    }
+}
