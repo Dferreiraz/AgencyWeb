@@ -44,7 +44,7 @@ O desafio proposto para este projeto era a criação {EXPLICAR}. Neste projeto, 
 
 <!-- EXEMPLO DE LAYOUT: -->
 ## 🎨 Layout
-![Web1](https://github.com/Dferreiraz/AgencyWeb/blob/main/thumb-AgencyWeb.png)
+![Web1](https://github.com/Dferreiraz/AgencyWeb/blob/main/public/thumb-AgencyWeb.png)
 
 ---
 
@@ -75,8 +75,10 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 #### **Front-End** 
 
+-   **React**
 -   **HTML**
 -   **CSS**
+-   **JavaScript**
 
 #### **Prototipação** ([Figma](https://www.figma.com/))
 
